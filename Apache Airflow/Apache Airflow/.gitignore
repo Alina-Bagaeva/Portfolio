@@ -1,0 +1,41 @@
+# .gitignore
+# ===========
+# Секреты и конфиденциальные данные
+.env
+.env.*
+!.env.example
+
+# SSL сертификаты
+nginx/ssl/
+*.pem
+*.key
+*.crt
+
+# Бэкапы и логи
+backups/
+logs/
+*.sql
+*.log
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Идеи и настройки редакторов
+.idea/
+.vscode/
+*.code-workspace
+
+# Временные файлы
+tmp/
+temp/

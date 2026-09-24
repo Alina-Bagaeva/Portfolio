@@ -1,0 +1,8 @@
+apache-airflow==2.11.0
+airflow-clickhouse-plugin==1.5.0
+lazy-object-proxy==1.10.0
+pandas>=1.5.0
+numpy>=1.21.0
+clickhouse-driver>=0.2.0
+mysql-connector-python>=8.0.0
+airflow-code-editor
