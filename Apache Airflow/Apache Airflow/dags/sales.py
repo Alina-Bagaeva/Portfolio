@@ -1045,11 +1045,11 @@ default_args = {
 }
 
 with DAG(
-    dag_id='pan_palych',
+    dag_id='pp',
     start_date=datetime(2024, 10, 1, 0, 15),
     schedule='15 0 * * *', #None,   Запуск в 3:15 МСК
     catchup=False,
-    tags=['pan_palych', 'mariadb', 'clickhouse', 'order_sales'],
+    tags=['pp', 'mariadb', 'clickhouse', 'order_sales'],
     max_active_runs=1,
     concurrency=1,
     default_args=default_args,
